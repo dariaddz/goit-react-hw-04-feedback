@@ -2,7 +2,13 @@ import React from 'react';
 import { List, Number } from './Statistics.styles';
 import PropTypes from 'prop-types';
 
-function Statistics({ good, neutral, bad, total, positivePercentage }) {
+function Statistics({
+  good = 0,
+  neutral = 0,
+  bad = 0,
+  total = 0,
+  positivePercentage = 0,
+}) {
   return (
     <>
       <List className="stat-list">

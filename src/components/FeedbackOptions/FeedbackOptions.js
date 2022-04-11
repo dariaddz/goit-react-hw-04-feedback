@@ -8,9 +8,9 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
       {options.map(option => (
         <Button
           key={option}
-          onClick={() => {
-            onLeaveFeedback(option);
-          }}
+          name={option}
+          type="button"
+          onClick={onLeaveFeedback}
         >
           {option}
         </Button>
@@ -20,7 +20,7 @@ function FeedbackOptions({ options, onLeaveFeedback }) {
 }
 
 FeedbackOptions.propTypes = {
-  options: PropTypes.node,
+  options: PropTypes.array,
   onLeaveFeedback: PropTypes.func,
 };
 export default FeedbackOptions;
