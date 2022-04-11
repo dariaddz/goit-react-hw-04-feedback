@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-02-feedback",
+  "name": "goit-react-hw-04-feedback",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dariaddz.github.io/goit-react-hw-02-feedback/",
+  "homepage": "https://dariaddz.github.io/goit-react-hw-04-feedback/",
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
